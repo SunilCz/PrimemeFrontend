@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/98a9cbf608.js" crossorigin="anonymous"></script>
+  <title>Responsive Web Page with Grid</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      /* padding: 30px; */
+    }
+    
+    /* Navigation bar */
+    .navbar {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      background-color: white;
+      color:black;
+      /* padding: 10px; */
+      box-shadow:#f2f2f2;
+    }
+    
+    .navbar img {
+      height: 50px;
+    }
+    
+    .nav-links {
+      display: flex;
+      justify-content: flex-end;
+      gap: 50px;
+    }
+    
+    .nav-links a {
+      color: black;
+      margin-left: 20px;
+      font-size: 24px;
+      font-weight: 500;
+      text-decoration: none;
+      font-family: 'Inter';
+      /* border-left:1px solid black; */
+      height:100%;
+    
+
+    }
+    
+    /* Main content */
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      /* padding: 20px; */
+    }
+    
+    .box {
+      background-color: white;
+      padding: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .box img {
+      max-width: 100%;
+      height: auto;
+      margin-right: 20px;
+      /* flex: 1; */
+    }
+    
+    .text {
+      flex-grow: 1;
+      
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    
+    /* Responsive layout */
+    @media (max-width: 768px) {
+      .navbar {
+        grid-template-columns: 1fr;
+        justify-items: center;
+      }
+      
+      .nav-links {
+        margin-top: 20px;
+        justify-content: center;
+      }
+      
+      .box {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      .box img {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation bar -->
+  <div class="navbar" style="border-bottom: 2px solid rgb(192, 19, 19)!important;
+  box-shadow: #cf0202;">
+    <div class="logo">
+      <p>priMEME</p>
+    </div>
+    <div class="nav-links" style="margin-right: 70px;">
+      <a href="meme.html">Memes</a>
+      <a href="login.html">Login</a>
+      <a href="Signup.html" >SignUp</a>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="container" style="margin-left: 70px; max-width: 1280px;">
+    
+        
+            
+            <div class="text">
+                <h2 class="he2">PRIME</h2>
+                <h2 class="he3">MEME</h2>
+                <h2 class="he4">CONTEST</h2>
+
+              <p style="font-size: larger;">Get ready to compete, create, and laugh! </p>
+              <div style="display: flex; gap: 20px; margin-top: 40px;">
+
+                <button style="padding:8px; font-size: larger ; font-weight: 800; width: max-content;
+                height: fit-content; background-color: white; border-radius: 4px; border:solid black;
+               
+    box-shadow: 5px 5px  rgb(6, 6, 6);">SIGN IN</button>
+                <h4 style="text-decoration: underline; margin-left: 40px; font-size: larger;">Memes</h4>
+               
+              </div>
+            </div>
+            <div class="image">
+            <div class="boxes" style=" margin-left: 120px;">
+              <div class="first">
+                <p> <span style="margin-right: 12px;"><i class="fa-solid fa-user-tie"></i></span> Join Now!</p>
+             
+              </div>
+              <br>
+              
+              
+              <div class="second">
+                <p> <span style="margin-right: 12px;"><i class="fa-regular fa-lightbulb"></i></i></i></span>Unleased Creativity</p>
+             
+              </div>
+              <br>
+              <div class="third">
+                <p> <span style="margin-right: 12px;"><i class="fa-solid fa-fire"></i></span>Make Meme Fly !</p>
+              </div>
+              <br>
+              <div class="fourth">
+                <p> <span style="margin-right: 12px;"><i class="fa-solid fa-users"></i></span>Spread Laughter !</p>
+              </div>
+            </div>
+                <img src="img/mic.png" alt="Image 2" style="margin-right: 78px;">
+                
+            </div>
+          
+         
+        
+      </div>
+
+    <div>
+
+      <h2 style="text-align: center;">What do I WIN ?</h2>
+    </div>
+            <div class="box"  style="margin-left: 70px;">
+            <div class="text" >
+                
+                    <h2> <span>Monthly Winner</span><br>Cash Prizes <span>+</span></br>Gift Hampers</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod odio id enim efficitur, ut fermentum ex laoreet. </p>
+
+                </div>
+                <div>
+                    <img src="/img/prize.png" alt="Image 2">
+                    
+                </div>
+              </div>
+                </div>
+
+                <div class="box" style="margin-left: 70px;">
+                    <div>
+                        <img src="/img/gift.png" alt="Image 2" style="margin-right: -78px;">
+                        
+                    </div>
+            
+                    <div class="text">
+                      <h2> <span>Weekly Winner</span><br>Gift Hampers<span> +</span></br>Food Vouchers</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod odio id enim efficitur, ut fermentum ex laoreet. </p>
+                    </div>
+                   
+                  </div>
+                    </div>
+                    <div class="box" style="margin-left: 70px; max-width: 1280px;">
+                      <div class="text">
+                          
+                        <h2> <span>first 50 entries</span><br>Food Vouchers</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod odio id enim efficitur, ut fermentum ex laoreet. </p>
+          
+                          </div>
+                          <div>
+                              <img src="/img/per.png" alt="Image 2" style="width: 457px; height: 451px;margin-right: 78px;">
+                              
+                          </div>
+                        </div>
+                          </div>
+          
+                         
+        
+
+<!-- Rules -->
+<div style="background-color: black; color: white; max-width: 1280px; display: flex; flex-direction: column; align-items: center;">
+  <h1 style="text-align: center;">Rules</h1>
+
+  <div style="width: 100%; text-align: center">
+    <p>1. Must be original and not plagiarized from any other source</p>
+    <p>2. Must be appropriate and not contain any offensive or derogatory content</p>
+    <p>3. You can submit as many memes as you want, but each meme must be submitted individually</p>
+    <p>4. Meme should be in the format of an image or GIF</p>
+    <p>5. You must own the rights to the image or GIF used in your meme</p>
+    <p>6. Meme must be submitted before the deadline</p>
+  </div>
+</div>
+<!-- how concept evolve -->
+<div>
+  <h2 style="text-align: center; margin-top: 40px;" >Who is behind this and why??</h2>
+    <div style="display: flex; align-items: center;justify-content: center;margin-top: 20px; margin-bottom: 40px;">
+<img src="/img/sunil.png" alt="" style="height:90px; ">
+<img src="/img/basanta.png" alt="" style="border-radius:100%;height:90px ">
+<img src="/img/robin.png" alt="" style="height:90px;">
+    </div>
+    <div> 
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Molestias illo ab, doloribus deserunt sit ut voluptatem dolore
+             officiis suscipit voluptate eum dolores, aliquam odio distinctio, 
+            ipsum in commodi tempore tenetur culpa amet reiciendis architecto.
+
+        </p>
+    </div>
+</div>
+      <!-- Footer -->
+      <div class="footer">
+        <p>&copy; 2023 My Website</p>
+      </div>
+    </body>
+    </html>

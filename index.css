@@ -1,0 +1,117 @@
+
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+
+
+.image>img{
+    
+    width: 485px;
+    height: 485px;
+    left: 843px;
+    /* border: 1px solid red; */
+
+}
+.text{
+    width: 50%;
+}
+/* navbar */
+.logo p{
+    color:black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: skyblue;
+  display: inline;
+  /* border-right: 1px solid black; */
+}
+
+/* body div 1 */
+.he2{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 64px;
+    
+
+}
+.he3{
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 128px;
+    line-height: 25px;
+    margin-top: 25px;
+
+}
+.he4{
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 128px;
+    line-height: 25px;
+ /* color; */
+}
+span{
+    color:grey;
+   text-transform: uppercase;
+}
+/* boxes */
+.first>p{
+    width:140px;
+    height: auto;
+    background-color: rgb(245, 248, 249);
+    border: 2px solid black;
+   text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 5px 5px  rgb(237, 157, 171);
+  
+border: 2px solid black;
+margin-left: 200px;
+
+}
+.second>p{
+    width:fit-content;
+    height: auto;
+    background-color: rgb(245, 248, 249);
+    border: 2px solid black;
+   text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 5px 5px  rgb(100, 125, 228);
+    /* margin-left: -110px; */
+
+border: 2px solid black;
+/* margin-left: 90px; */
+
+}
+.third>p{
+
+    width:fit-content;
+    height: auto;
+    background-color: rgb(245, 248, 249);
+    border: 2px solid black;
+   text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 5px 5px  rgb(232, 133, 56);
+    margin-left: 200px;
+border: 2px solid black;
+/* margin-left: 90px; */
+
+}
+.fourth>p{
+    width:fit-content;
+    height: auto;
+    background-color: rgb(245, 248, 249);
+    border: 2px solid black;
+   text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 5px 5px  rgb(112, 125, 225);
+/* margin-left: -110px; */
+border: 2px solid black;
+/* margin-left: 90px; */
+
+}
+
+
