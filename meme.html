@@ -6,91 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="meme.css">
     <title>Document</title>
-    <style>
-
-         @media (max-width: 768px) {
-      .navbar {
-        grid-template-columns: 1fr;
-        justify-items: center;
-      }
-      
-      .nav-links {
-        margin-top: 20px;
-        justify-content: center;
-      }
-    }
-    * {
-      box-sizing: border-box;
-    }
-    
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: white;
-      /* padding: 30px; */
-    }
-    
-    /* Navigation bar */
-    .navbar {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      align-items: center;
-      background-color: white;
-      color:black;
-      /* padding: 10px; */
-      box-shadow:#f2f2f2;
-    }
-    
-    .navbar img {
-      height: 50px;
-    }
-    
-    .nav-links {
-      display: flex;
-      justify-content: flex-end;
-    }
-    
-    .nav-links a {
-      color: black;
-      margin-left: 20px;
-      font-size: 24px;
-      font-weight: 500;
-      text-decoration: none;
-      font-family: 'Inter';
-      /* border-left:1px solid black; */
-      height:100%;
-    
-
-    }
-    .logo p{
-    color:black;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    background-color: skyblue;
-  display: inline;
-  /* border-right: 1px solid black; */
-}
-    </style>
+   
 </head>
 <body>
-  <div class="navbar" style="border-bottom: 2px solid rgb(192, 19, 19)!important;
-  box-shadow: #cf0202;">
-    <div class="logo">
-        <a href="index.html" style="text-decoration: none;"> <p>priMEME</p></a>
+    <div class="navbar" style="border-bottom: 2px solid rgb(192, 19, 19)!important;
+    box-shadow: #cf0202;">
+      <div class="logo">
+       <a href="index.html" style="text-decoration: none;"> <p>priMEME</p></a>
+      </div>
+      <div class="nav-links" style="margin-right: 70px;">
+        <a href="#">Memes</a>
+        <a href="login.html">Login</a>
+        <a href="Signup.html">Signup</a>
+      </div>
     </div>
-    <div class="nav-links" style="margin-right: 70px;">
-      <a href="meme.html">Memes</a>
-      <a href="login.html">Login</a>
-      <a href="Signup.html" >SignUp</a>
-    </div>
-  </div>
 <div class="txt">
     <h2>Cast  your vote with reactions </h2>
     <br>
     
     <ul>
-      <li><span>i.</span> The post with the most     emojis in a month wins overall.</li><br>
+      <li><span>i.</span> The post with the most  emojis in a month wins overall.</li><br>
       <li><span>ii.</span> Posts with the most of any emoji in a week will be weekly winner.
         </li>
 
@@ -104,7 +39,10 @@
   <img src="img/image 5.png" alt="">
   <img src="img/image 6.png" alt="">
 </div>
-<div style="margin-top: 50px;"> <img src="img/image 8.png" alt=""></div>
+<div class="memeimg">
+
+  <div style="margin-top: 50px;"> <img src="img/image 8.png" alt=""></div>
+</div>
 <div class="num">
   <p>1</p>
   <p>0</p>
